@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2984BE991EE63EBC00E2EEBE /* JYCFromVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2984BE981EE63EBC00E2EEBE /* JYCFromVC.m */; };
+		2984BE9C1EE63ECA00E2EEBE /* JYCToVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2984BE9B1EE63ECA00E2EEBE /* JYCToVC.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* JYCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JYCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* JYCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JYCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,7 +39,11 @@
 
 /* Begin PBXFileReference section */
 		244DA667092978DEFF074E71 /* Pods-JYCTransitionAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCTransitionAnimation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYCTransitionAnimation_Tests/Pods-JYCTransitionAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25D4C162194A0926A12BC121 /* JYCTransitionAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JYCTransitionAnimation.podspec; path = ../JYCTransitionAnimation.podspec; sourceTree = "<group>"; };
+		25D4C162194A0926A12BC121 /* JYCTransitionAnimation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JYCTransitionAnimation.podspec; path = ../JYCTransitionAnimation.podspec; sourceTree = "<group>"; };
+		2984BE971EE63EBC00E2EEBE /* JYCFromVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCFromVC.h; sourceTree = "<group>"; };
+		2984BE981EE63EBC00E2EEBE /* JYCFromVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCFromVC.m; sourceTree = "<group>"; };
+		2984BE9A1EE63ECA00E2EEBE /* JYCToVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCToVC.h; sourceTree = "<group>"; };
+		2984BE9B1EE63ECA00E2EEBE /* JYCToVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCToVC.m; sourceTree = "<group>"; };
 		2BCCC62CAF646CBD1B481847 /* Pods-JYCTransitionAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCTransitionAnimation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYCTransitionAnimation_Tests/Pods-JYCTransitionAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		38B397D9276A2028805EF7FA /* Pods_JYCTransitionAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCTransitionAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C18CEFB17D65674D8D0E479 /* Pods_JYCTransitionAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCTransitionAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +57,6 @@
 		6003F59B195388D20070C39A /* JYCTransitionAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JYCTransitionAnimation-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* JYCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* JYCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* JYCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* JYCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* JYCTransitionAnimation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYCTransitionAnimation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,10 +64,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		666EAF84F8D6052B8CF7F1C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		666EAF84F8D6052B8CF7F1C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AFA979F5BFDC30C3BC28FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9AFA979F5BFDC30C3BC28FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB9C901CCA2DDCF7CB9CC7AD /* Pods-JYCTransitionAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCTransitionAnimation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYCTransitionAnimation_Example/Pods-JYCTransitionAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1A2077DBDF148FE1394CF76 /* Pods-JYCTransitionAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYCTransitionAnimation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYCTransitionAnimation_Example/Pods-JYCTransitionAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,8 +149,10 @@
 				6003F59C195388D20070C39A /* JYCAppDelegate.h */,
 				6003F59D195388D20070C39A /* JYCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* JYCViewController.h */,
-				6003F5A6195388D20070C39A /* JYCViewController.m */,
+				2984BE971EE63EBC00E2EEBE /* JYCFromVC.h */,
+				2984BE981EE63EBC00E2EEBE /* JYCFromVC.m */,
+				2984BE9A1EE63ECA00E2EEBE /* JYCToVC.h */,
+				2984BE9B1EE63ECA00E2EEBE /* JYCToVC.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiayuanchao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4QSH2DXUV5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -394,8 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2984BE991EE63EBC00E2EEBE /* JYCFromVC.m in Sources */,
 				6003F59E195388D20070C39A /* JYCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* JYCViewController.m in Sources */,
+				2984BE9C1EE63ECA00E2EEBE /* JYCToVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +533,7 @@
 			baseConfigurationReference = F1A2077DBDF148FE1394CF76 /* Pods-JYCTransitionAnimation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QSH2DXUV5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JYCTransitionAnimation/JYCTransitionAnimation-Prefix.pch";
 				INFOPLIST_FILE = "JYCTransitionAnimation/JYCTransitionAnimation-Info.plist";
@@ -539,6 +549,7 @@
 			baseConfigurationReference = EB9C901CCA2DDCF7CB9CC7AD /* Pods-JYCTransitionAnimation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QSH2DXUV5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JYCTransitionAnimation/JYCTransitionAnimation-Prefix.pch";
 				INFOPLIST_FILE = "JYCTransitionAnimation/JYCTransitionAnimation-Info.plist";

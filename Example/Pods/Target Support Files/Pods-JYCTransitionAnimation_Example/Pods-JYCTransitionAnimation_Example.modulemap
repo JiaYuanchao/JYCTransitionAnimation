@@ -1,0 +1,6 @@
+framework module Pods_JYCTransitionAnimation_Example {
+  umbrella header "Pods-JYCTransitionAnimation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

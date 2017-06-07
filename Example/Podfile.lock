@@ -1,0 +1,16 @@
+PODS:
+  - JYCTransitionAnimation (0.1.0)
+
+DEPENDENCIES:
+  - JYCTransitionAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  JYCTransitionAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYCTransitionAnimation: c3e785c8cef175d6c39981ebc325940b1250701a
+
+PODFILE CHECKSUM: 8171670b165eccd68872f1d510b8be1acf48f5e6
+
+COCOAPODS: 1.2.1

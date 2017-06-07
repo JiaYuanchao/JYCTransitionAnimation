@@ -1,0 +1,6 @@
+framework module JYCTransitionAnimation {
+  umbrella header "JYCTransitionAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
