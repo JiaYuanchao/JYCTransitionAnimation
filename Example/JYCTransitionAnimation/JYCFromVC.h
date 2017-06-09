@@ -12,4 +12,10 @@
 
 @property (nonatomic, assign, readonly) CGRect buttonFrame;
 
+
+/**
+ 种类 0 翻转 1 扩散
+ */
+@property (nonatomic, assign) NSInteger type;
+
 @end

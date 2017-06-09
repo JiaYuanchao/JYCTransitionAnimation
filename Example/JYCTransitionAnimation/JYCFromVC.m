@@ -44,7 +44,7 @@
 - (JYCTransitionAnimationManager *)manager
 {
     if (!_manager) {
-        _manager = [JYCTransitionAnimationManager transitionAnimationManagerWithAninationType:JYCTransitionAnimationSpress];
+        _manager = [JYCTransitionAnimationManager transitionAnimationManagerWithAninationType:self.type == 0 ? JYCTransitionAnimationFlip : JYCTransitionAnimationSpress];
     }
     return _manager;
 }

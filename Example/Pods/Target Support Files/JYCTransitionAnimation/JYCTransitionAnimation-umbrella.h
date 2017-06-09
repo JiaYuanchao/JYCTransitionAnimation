@@ -11,6 +11,7 @@
 #endif
 
 #import "JYCBasicAnimation.h"
+#import "JYCMagicAnimation.h"
 #import "JYCModalAnimation.h"
 #import "JYCSpressAnimation.h"
 #import "JYCTransitionAnimationManager.h"

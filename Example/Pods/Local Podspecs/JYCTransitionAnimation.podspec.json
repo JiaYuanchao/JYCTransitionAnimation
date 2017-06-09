@@ -1,8 +1,8 @@
 {
   "name": "JYCTransitionAnimation",
   "version": "0.1.0",
-  "summary": "A short description of JYCTransitionAnimation.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "JYCTransitionAnimation",
+  "description": "JYCTransitionAnimation: transitionAnimationDemo.",
   "homepage": "https://github.com/jiayuanchao/JYCTransitionAnimation",
   "license": {
     "type": "MIT",
