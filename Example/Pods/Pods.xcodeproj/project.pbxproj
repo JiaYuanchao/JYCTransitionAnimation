@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		12BF1176A9D875AB5E52F12551850CB8 /* JYCModalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAC51A00C1E9E2F38B4254964EAAC5 /* JYCModalAnimation.m */; };
-		1310726606792AFE093A8FDA12E403BD /* JYCMagicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1A347789DF7E326AFCAD4C7471E7BD /* JYCMagicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AEBD6DF6D4FDFFD9177C23A6FABD4F8 /* JYCSpressAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CDFAF5C01243A70909D12E91A2BDF /* JYCSpressAnimation.m */; };
 		1ED546C0ABE82C416B4B398C075AC32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		297356FD1EEAAD72006DCA8B /* JYCMagicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 297356FB1EEAAD72006DCA8B /* JYCMagicAnimation.h */; };
+		297356FE1EEAAD72006DCA8B /* JYCMagicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 297356FC1EEAAD72006DCA8B /* JYCMagicAnimation.m */; };
 		38617698E1D7B693593631AEA5273F97 /* JYCBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D262098517487C75417E66C244D269 /* JYCBasicAnimation.m */; };
 		3F30699BFF504FEFE1EB4FE04124647D /* JYCTransitionAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 478B82F3BFBC2CC1D8BA4B6B63006C89 /* JYCTransitionAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F637BE84FEBC956ED15C25A5DD150A1 /* JYCTransitionAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476D55A5AD60ECA59051896B2EE57F1 /* JYCTransitionAnimation-dummy.m */; };
@@ -25,7 +26,6 @@
 		BFB72D229D786D140391AFF2B64B44DE /* JYCSpressAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B38161D7EB971ABDB0AC5A3FDA3365F /* JYCSpressAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBC2C9B34B43186AEAD2BAAEE038DEB9 /* JYCTransitionAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE79D0D9E5BEFB1944ABBA2BE5A13AB /* JYCTransitionAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0A3415BC2EF183A835C82D5683F0E2E /* Pods-JYCTransitionAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF78DD55C726B49DEDEC835ADEA6BE22 /* Pods-JYCTransitionAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71B92DB9AA8F9F30FFF3F94F0C54388 /* JYCMagicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4162F8B480C5A6ABAC004CA4C852CD1F /* JYCMagicAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,31 +42,31 @@
 		0476D55A5AD60ECA59051896B2EE57F1 /* JYCTransitionAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYCTransitionAnimation-dummy.m"; sourceTree = "<group>"; };
 		079E8E8099BA40E6137777F341F2F073 /* Pods-JYCTransitionAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYCTransitionAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28B4424F281040481DA27D1D8F99A0AD /* Pods-JYCTransitionAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYCTransitionAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		297356FB1EEAAD72006DCA8B /* JYCMagicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCMagicAnimation.h; sourceTree = "<group>"; };
+		297356FC1EEAAD72006DCA8B /* JYCMagicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCMagicAnimation.m; sourceTree = "<group>"; };
 		35B13F597820C5DED7E3601BECF7C2FA /* Pods-JYCTransitionAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYCTransitionAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
 		3B110E2F1F40FF11D0363D31E3A7960C /* Pods-JYCTransitionAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYCTransitionAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4162F8B480C5A6ABAC004CA4C852CD1F /* JYCMagicAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYCMagicAnimation.m; sourceTree = "<group>"; };
 		478B82F3BFBC2CC1D8BA4B6B63006C89 /* JYCTransitionAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYCTransitionAnimationManager.h; sourceTree = "<group>"; };
-		4844277ADFA94950DC41609FF00D78FB /* Pods_JYCTransitionAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYCTransitionAnimation_Example.framework; path = "Pods-JYCTransitionAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4844277ADFA94950DC41609FF00D78FB /* Pods_JYCTransitionAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCTransitionAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE79D0D9E5BEFB1944ABBA2BE5A13AB /* JYCTransitionAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYCTransitionAnimation-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B38161D7EB971ABDB0AC5A3FDA3365F /* JYCSpressAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYCSpressAnimation.h; sourceTree = "<group>"; };
-		6F63DFBDC00778AE40D211A9A690544D /* Pods-JYCTransitionAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JYCTransitionAnimation_Example.modulemap"; sourceTree = "<group>"; };
-		822AA2779018BA3C629E8EEB1955E368 /* JYCTransitionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYCTransitionAnimation.framework; path = JYCTransitionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F63DFBDC00778AE40D211A9A690544D /* Pods-JYCTransitionAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JYCTransitionAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		822AA2779018BA3C629E8EEB1955E368 /* JYCTransitionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JYCTransitionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E810A22AC941C6F77E5B17BC874768 /* Pods-JYCTransitionAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCTransitionAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C747B817126CE230B2B3BA579BAC956 /* JYCTransitionAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYCTransitionAnimation.xcconfig; sourceTree = "<group>"; };
 		8D0E6168E4E28EEBA70E71197DCEC104 /* Pods-JYCTransitionAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYCTransitionAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8FDAC51A00C1E9E2F38B4254964EAAC5 /* JYCModalAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYCModalAnimation.m; sourceTree = "<group>"; };
-		9104B0BC2D93CCC1992AAEFB82843064 /* Pods_JYCTransitionAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYCTransitionAnimation_Tests.framework; path = "Pods-JYCTransitionAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9104B0BC2D93CCC1992AAEFB82843064 /* Pods_JYCTransitionAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYCTransitionAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9421BB4A16FB11CB847E60C231FAD365 /* Pods-JYCTransitionAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYCTransitionAnimation_Example-dummy.m"; sourceTree = "<group>"; };
 		9CA43CC2BAB819E71E1F235A9F63F40F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE6DE539D1913A6B1EA9F2D81B54C0B /* Pods-JYCTransitionAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCTransitionAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9FD9B6D7071BE3FB1FA0FFA7960FB258 /* Pods-JYCTransitionAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCTransitionAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A26971C71242B9C41671DB89A607C3E5 /* Pods-JYCTransitionAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCTransitionAnimation_Example-resources.sh"; sourceTree = "<group>"; };
 		A3296A08A0050D1DB080023812E70DE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC1A347789DF7E326AFCAD4C7471E7BD /* JYCMagicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYCMagicAnimation.h; sourceTree = "<group>"; };
 		AC2856E3EC4CCE183692A424A2BFDA90 /* JYCTransitionAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYCTransitionAnimation-prefix.pch"; sourceTree = "<group>"; };
-		B7A5A41A8B3626E32B595D48BF7A4E99 /* Pods-JYCTransitionAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JYCTransitionAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		B7A5A41A8B3626E32B595D48BF7A4E99 /* Pods-JYCTransitionAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JYCTransitionAnimation_Tests.modulemap"; sourceTree = "<group>"; };
 		BA0CDFAF5C01243A70909D12E91A2BDF /* JYCSpressAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYCSpressAnimation.m; sourceTree = "<group>"; };
 		BAFE2E1256FE479A11D81E2257126F87 /* Pods-JYCTransitionAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCTransitionAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C23FE0576E1AA356E8827E3078CDB4DB /* JYCTransitionAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYCTransitionAnimationManager.m; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		EF78DD55C726B49DEDEC835ADEA6BE22 /* Pods-JYCTransitionAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYCTransitionAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
 		F047EE6C36DA2316F733356473168C51 /* Pods-JYCTransitionAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYCTransitionAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F29D102B11C58CAFA8F8B2CA09DE291A /* Pods-JYCTransitionAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCTransitionAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F4188C59BE9CE0989E3C762121B51DB9 /* JYCTransitionAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JYCTransitionAnimation.modulemap; sourceTree = "<group>"; };
+		F4188C59BE9CE0989E3C762121B51DB9 /* JYCTransitionAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JYCTransitionAnimation.modulemap; sourceTree = "<group>"; };
 		F624238CDBFAC78A3A71109B1E28A9FE /* Pods-JYCTransitionAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYCTransitionAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,16 +203,15 @@
 			children = (
 				DD4A991C5E3BBFE098BA4673FF108B54 /* JYCBasicAnimation.h */,
 				E6D262098517487C75417E66C244D269 /* JYCBasicAnimation.m */,
-				AC1A347789DF7E326AFCAD4C7471E7BD /* JYCMagicAnimation.h */,
-				4162F8B480C5A6ABAC004CA4C852CD1F /* JYCMagicAnimation.m */,
 				C9F0CC88A6C2EFA9D5C27444CCD2D1DC /* JYCModalAnimation.h */,
 				8FDAC51A00C1E9E2F38B4254964EAAC5 /* JYCModalAnimation.m */,
 				6B38161D7EB971ABDB0AC5A3FDA3365F /* JYCSpressAnimation.h */,
 				BA0CDFAF5C01243A70909D12E91A2BDF /* JYCSpressAnimation.m */,
+				297356FB1EEAAD72006DCA8B /* JYCMagicAnimation.h */,
+				297356FC1EEAAD72006DCA8B /* JYCMagicAnimation.m */,
 				478B82F3BFBC2CC1D8BA4B6B63006C89 /* JYCTransitionAnimationManager.h */,
 				C23FE0576E1AA356E8827E3078CDB4DB /* JYCTransitionAnimationManager.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -237,7 +236,6 @@
 			children = (
 				B4395D818635B089D289152E4FFC87E7 /* Classes */,
 			);
-			name = JYCTransitionAnimation;
 			path = JYCTransitionAnimation;
 			sourceTree = "<group>";
 		};
@@ -259,8 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4D62D63AF911463909874D680EFE87 /* JYCBasicAnimation.h in Headers */,
-				1310726606792AFE093A8FDA12E403BD /* JYCMagicAnimation.h in Headers */,
 				B37F3C06C5C2F2DCF86CCE0A955EBCE5 /* JYCModalAnimation.h in Headers */,
+				297356FD1EEAAD72006DCA8B /* JYCMagicAnimation.h in Headers */,
 				BFB72D229D786D140391AFF2B64B44DE /* JYCSpressAnimation.h in Headers */,
 				CBC2C9B34B43186AEAD2BAAEE038DEB9 /* JYCTransitionAnimation-umbrella.h in Headers */,
 				3F30699BFF504FEFE1EB4FE04124647D /* JYCTransitionAnimationManager.h in Headers */,
@@ -372,11 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38617698E1D7B693593631AEA5273F97 /* JYCBasicAnimation.m in Sources */,
-				F71B92DB9AA8F9F30FFF3F94F0C54388 /* JYCMagicAnimation.m in Sources */,
 				12BF1176A9D875AB5E52F12551850CB8 /* JYCModalAnimation.m in Sources */,
 				1AEBD6DF6D4FDFFD9177C23A6FABD4F8 /* JYCSpressAnimation.m in Sources */,
 				3F637BE84FEBC956ED15C25A5DD150A1 /* JYCTransitionAnimation-dummy.m in Sources */,
 				50D68856D77FD0223C227E76D49C140E /* JYCTransitionAnimationManager.m in Sources */,
+				297356FE1EEAAD72006DCA8B /* JYCMagicAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

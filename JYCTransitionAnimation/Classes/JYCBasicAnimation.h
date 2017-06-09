@@ -12,6 +12,8 @@ typedef NS_ENUM(NSInteger, JYCShowType) {
     JYCShowTypeNone,
     JYCShowTypePresent,
     JYCShowTypeDismiss,
+    JYCShowTypePush,
+    JYCShowTypePop,
 };
 
 @interface JYCBasicAnimation : NSObject<UIViewControllerAnimatedTransitioning>

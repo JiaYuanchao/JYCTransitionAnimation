@@ -9,6 +9,7 @@
 #import "JYCTransitionAnimationManager.h"
 #import "JYCModalAnimation.h"
 #import "JYCSpressAnimation.h"
+#import "JYCMagicAnimation.h"
 
 @interface JYCTransitionAnimationManager ()
 
@@ -17,6 +18,10 @@
 @property (nonatomic, strong) JYCBasicAnimation *presentAnimation;
 
 @property (nonatomic, strong) JYCBasicAnimation *dismissAnimation;
+
+@property (nonatomic, strong) JYCBasicAnimation *pushAnimation;
+
+@property (nonatomic, strong) JYCBasicAnimation *popAnimation;
 
 @end
 
@@ -48,6 +53,13 @@
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
     return self.dismissAnimation;
+}
+
+#pragma mark --UINavigationControllerDelegate
+
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
+{
+    return operation == UINavigationControllerOperationPush ? self.pushAnimation : self.popAnimation;
 }
 
 #pragma mark --懒加载
@@ -86,5 +98,32 @@
     return _dismissAnimation;
 }
 
+- (JYCBasicAnimation *)pushAnimation
+{
+    if (!_pushAnimation) {
+        switch (self.animationType) {
+            case JYCTransitionAnimationMagicMove:
+                _pushAnimation = [JYCMagicAnimation basicAnimationWithShowType:JYCShowTypePush];
+                break;
+            default:
+                break;
+        }
+    }
+    return _pushAnimation;
+}
+
+- (JYCBasicAnimation *)popAnimation
+{
+    if (!_popAnimation) {
+        switch (self.animationType) {
+            case JYCTransitionAnimationMagicMove:
+                _popAnimation = [JYCMagicAnimation basicAnimationWithShowType:JYCShowTypePop];
+                break;
+            default:
+                break;
+        }
+    }
+    return _popAnimation;
+}
 
 @end

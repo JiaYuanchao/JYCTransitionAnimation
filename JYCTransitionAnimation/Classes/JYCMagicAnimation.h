@@ -6,8 +6,9 @@
 //
 //
 
-#import <JYCTransitionAnimation/JYCTransitionAnimation.h>
+#import <Foundation/Foundation.h>
+#import "JYCBasicAnimation.h"
 
-@interface JYCMagicAnimation : JYCBasicAnimation
+@interface JYCMagicAnimation : JYCBasicAnimation<UIViewControllerAnimatedTransitioning>
 
 @end
